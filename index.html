@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather" />
 	
 	<!-- OGP -->
+	<!-- TODO: -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="" />
 	<meta property="og:url" content="" />
@@ -37,11 +38,12 @@
 		<label id="nav-opener" for="nav-opener-check"><i class="fa fa-bars"></i></label>
 		<input id="nav-opener-check" name="nav-opener" type="checkbox" />
 		<ul id="nav">
-			<li><a href="#about"><span class="nav-label">About</span></a></li>
-			<li><a href="#sample"><span class="nav-label">Sample</span></a></li>
-			<li><a href="#order"><span class="nav-label">Order</span></a></li>
-			<li><a href="#flier"><span class="nav-label">Flier</span></a></li>
-			<li><a href="#contact"><span class="nav-label">Contact</span></a></li>
+			<li><a href="#story"><span class="nav-label">物語</span></a></li>
+			<li><a href="#system"><span class="nav-label">ゲームシステム</span></a></li>
+			<li><a href="#sample"><span class="nav-label">サンプル</span></a></li>
+			<li><a href="#download"><span class="nav-label">ダウンロード</span></a></li>
+			<li><a href="#about"><span class="nav-label">ゲーム詳細</span></a></li>
+			<li><a href="#order"><span class="nav-label">委託</span></a></li>
 		</ul>
 	</nav>
 	
@@ -52,10 +54,93 @@
 		<h1></h1>
 	
 	<!-- コンテンツ -->
+	<!-- 物語 -->
+	<a name="story"></a>
+	<section id="story" class="wrapper">
+		<h2>物語</h2>
+		<p>
+			Coming soon...
+		</p>
+	</section>
+
+	<!-- システム -->
+	<a name="system"></a>
+	<section id="system" class="wrapper">
+		<h2>ゲームシステム</h2>
+
+		<h3>ゲームの簡単な内容説明</h3>
+		<p>
+		<!-- TODO: ステージ上の画像 -->
+		霊夢と紫が主人公の2Dアクションパズルゲームです。<br />
+		プレイヤーは霊夢をプレイします。<br />
+		紫は常に霊夢の反対側に居て、霊夢が移動すると、紫も反対側に移動します。<br />
+
+		<br />
+		<!-- TODO: 霊夢と紫とアイテムのドット絵 -->
+
+		ステージ上のアイテムを全て獲得するとクリアです。<br />
+		X キーを押すと、霊夢と紫の位置が入れ替わります。<br />
+		霊夢だけでは獲得できないアイテムがあるので、霊夢と紫の位置を交代しながら<br />
+		アイテムを獲得してステージをクリアしていきます。<br />
+
+		<br />
+
+		霊夢と紫の位置を入れ替える回数には上限があるので、よく考えて<br />
+		ゲームをプレイしてみてください。<br />
+		</p>
+
+	</section>
+
+	<!-- サンプル -->
+	<a name="sample"></a>
+	<section id="sample" class="wrapper">
+		<h2>サンプル</h2>
+		<ul id="sample-list">
+			<li>
+				<a href="#"><div class="sample-img" style="background-image: url('img/sample1.png')"></div></a>
+				<!--
+				<div class="sample-caption">
+					<i class="fa caption-toggle"></i>
+					<p>
+						
+					</p>
+					<p>
+						<a href="#" target="_blank" class="banner"><img src="img/sample1.png" alt="" width="" height="" /></a>
+					</p>
+					<p>
+						<a href="#" target="_blank"><i class="icon-social icon-pixiv"></i></a>
+						<a href="#" target="_blank"><i class="icon-social icon-twitter"></i></a>
+					</p>
+				</div>
+				-->
+			</li>
+
+			<li>
+				<a href="#"><div class="sample-img" style="background-image: url('img/sample2.png')"></div></a>
+			</li>
+
+			<li>
+				<a href="#"><div class="sample-img" style="background-image: url('img/sample3.png')"></div></a>
+			</li>
+
+		</ul>
+	</section>
+
+	<!-- ダウンロード -->
+	<a name="download"></a>
+	<section id="download" class="wrapper">
+		<h2>ダウンロード</h2>
+
+		<p>
+			<a href="#">体験版ダウンロード</a>
+		</p>
+
+	</section>
+
 	<!-- 概要 -->
 	<a name="about"></a>
 	<section id="about" class="wrapper">
-		<h2>About</h2>
+		<h2>ゲーム詳細</h2>
 		<div id="cover" class="paper">
 			<a href=""><img src="img/title.png" /></a>
 		</div>
@@ -109,171 +194,14 @@
 		</ul>
 	</section>
 
-	<!-- 物語 -->
-	<a name="story"></a>
-	<section id="story" class="wrapper">
-		<h2>物語</h2>
-		<p>
-			Coming soon...
-		</p>
-	</section>
-
-	<!-- システム -->
-	<a name="system"></a>
-	<section id="system" class="wrapper">
-		<h2>ゲームシステム</h2>
-
-		<h3>ゲームの簡単な内容説明</h3>
-		<p>
-		<!-- TODO: ステージ上の画像 -->
-		霊夢と紫が主人公の2Dアクションパズルゲームです。<br />
-		プレイヤーは霊夢をプレイします。<br />
-		紫は常に霊夢の反対側に居て、霊夢が移動すると、紫も反対側に移動します。<br />
-
-		<br />
-		<!-- TODO: 霊夢と紫とアイテムのドット絵 -->
-
-		ステージ上のアイテムを全て獲得するとクリアです。<br />
-		X キーを押すと、霊夢と紫の位置が入れ替わります。<br />
-		霊夢だけでは獲得できないアイテムがあるので、霊夢と紫の位置を交代しながら<br />
-		アイテムを獲得してステージをクリアしていきます。<br />
-
-		<br />
-
-		霊夢と紫の位置を入れ替える回数には上限があるので、よく考えて<br />
-		ゲームをプレイしてみてください。<br />
-		</p>
-
-	</section>
-
-
-
-	<!-- サンプル -->
-	<a name="sample"></a>
-	<section id="sample" class="wrapper">
-		<h2>Sample</h2>
-		<ul id="sample-list">
-			<li>
-				<a href="#"><div class="sample-img" style="background-image: url('img/sample1.png')"></div></a>
-				<!--
-				<div class="sample-caption">
-					<i class="fa caption-toggle"></i>
-					<p>
-						
-					</p>
-					<p>
-						<a href="#" target="_blank" class="banner"><img src="img/sample1.png" alt="" width="" height="" /></a>
-					</p>
-					<p>
-						<a href="#" target="_blank"><i class="icon-social icon-pixiv"></i></a>
-						<a href="#" target="_blank"><i class="icon-social icon-twitter"></i></a>
-					</p>
-				</div>
-				-->
-			</li>
-
-			<li>
-				<a href="#"><div class="sample-img" style="background-image: url('img/sample2.png')"></div></a>
-			</li>
-
-			<li>
-				<a href="#"><div class="sample-img" style="background-image: url('img/sample3.png')"></div></a>
-			</li>
-
-		</ul>
-	</section>
-
-	<!-- ダウンロード -->
-	<a name="system"></a>
-	<section id="system" class="wrapper">
-		<h2>ダウンロード</h2>
-
-		<h3>体験版</h3>
-		<p>
-			<a href="#">体験版ダウンロード</a>
-		</p>
-
-	</section>
-
-
-
-
-
-
 	<!-- 通販 -->
 	<a name="order"></a>
 	<section id="order" class="wrapper">
-		<h2>Order</h2>
-<!--
-		<h3>自家通販</h3>
-		<p>
-			
-		</p>
-		<dl class="contact-form">
-			<dt>お名前(本名)</dt>
-				<dd><input type="text" /></dd>
-			<dt>メールアドレス</dt>
-				<dd><input type="text" /></dd>
-			<dt>郵便番号</dt>
-				<dd><input type="text" /></dd>
-			<dt>住所</dt>
-				<dd><input type="text" /></dd>
-			<dt>冊数</dt>
-				<dd><input type="text" /></dd>
-			<dt>備考</dt>
-				<dd><textarea></textarea></dd>
-			<dt></dt>
-		</dl>
-		<p class="center">
-			<button type="submit">Submit</button>
-			<button type="reset">Reset</button>
-		</p>
--->
-		<h3>書店委託</h3>
+		<h2>委託</h2>
 		<p>
 			Coming soon...
 		</p>
 	</section>
-	<!-- フライヤー -->
-<!--
-	<a name="flier"></a>
-	<section id="flier" class="wrapper">
-		<h2>Flier</h2>
-		<div id="flier-paper" class="paper dummy">
-			<img src="" />
-		</div>
-		<h3>配布イベント</h3>
-		<dl id="flier-evnet">
-			<dt><a href="#"></a></dt>
-				<dd></dd>
-			<dt><a href="#"></a></dt>
-				<dd></dd>
-		</dl>
-		<h3>配布サークル募集</h3>
-		<p></p>
-	</section>
--->
-	<!-- メールフォーム -->
-<!--
-	<a name="contact"></a>
-	<section id="contact" class="wrapper">
-		<h2>Contact</h2>
-		<dl class="contact-form">
-			<dt>お名前</dt>
-				<dd><input type="text" /></dd>
-			<dt>メールアドレス</dt>
-				<dd><input type="text" /></dd>
-			<dt>本文</dt>
-				<dd><textarea></textarea></dd>
-			<dt></dt>
-			<dd><label><input type="checkbox" /><i class="fa"></i>返信不要</label></dd>
-		</dl>
-		<p class="center">
-			<button type="submit">Submit</button>
-			<button type="reset">Reset</button>
-		</p>
-	</section>
--->
 	<!-- フッタ -->
 <!--
 	<section id="footer" class="wrapper">
