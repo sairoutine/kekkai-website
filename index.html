@@ -13,7 +13,6 @@
 	<!-- TODO: 遊び方 -->
 	<!-- TODO: スクショ増やす -->
 
-	<!-- TODO: 文字を大きくしたい -->
 	<!-- OGP -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="紫と霊夢の終わらない夏 特設サイト" />
@@ -117,6 +116,7 @@
 	<section id="story" class="wrapper">
 		<h2>物語</h2>
 		<p>
+			<!-- TODO: -->
 			Coming soon...
 		</p>
 	</section>
@@ -217,8 +217,12 @@
 	<section id="about" class="wrapper">
 		<h2>ゲーム詳細</h2>
 		<div id="cover" class="paper">
-			<a href=""><img src="img/title.png" /></a>
+			<a data-target="cover_img" class="modal-open"><img src="img/title.png" /></a>
 		</div>
+		<div id="cover_img" class="modal-content">
+			<img src="img/title.png">
+		</div>
+
 		<dl id="spec">
 			<dt>タイトル</dt>
 				<dd>紫と霊夢の終わらない夏</dd>
